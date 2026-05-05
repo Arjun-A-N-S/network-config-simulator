@@ -1,0 +1,14 @@
+module simple-router {
+	namespace "http://example.com/router";
+	prefix sr;
+	container system{
+		leaf hostname {
+			type string;
+		}
+		leaf enabled {
+			type boolean;
+			default "true";
+		}
+	}
+} 
+

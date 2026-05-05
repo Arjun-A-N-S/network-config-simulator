@@ -1,0 +1,4 @@
+<system xmlns="http://example.com/router">
+    <hostname>router2</hostname>
+    <enabled>False</enabled>
+</system>
